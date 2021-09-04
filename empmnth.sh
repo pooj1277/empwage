@@ -24,5 +24,5 @@ do
 salary=$(($empHrs*$empRatePerHr));
 echo $salary
 totalSalary=$(($totalSalary+$salary));
-echo "Monthly salary at employee hours= $empHrs is $totalSalary"
+echo "Monthly salary of employee for $empHrs hours is $totalSalary"
 done
